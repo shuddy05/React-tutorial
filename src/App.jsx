@@ -1,4 +1,4 @@
-import React from "react";  
+import React from "react";
 import { lazy, Suspense } from "react";
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
@@ -8,6 +8,7 @@ const ProductDetails = lazy(() => import("./pages/ProductDetails"));
 const DashboardLayout = lazy(() => import("./components/DashboardLayout"));
 const DashboardHome = lazy(() => import("./pages/DashboardHome"));
 const Login = lazy(() => import("./pages/Login"));
+
 import {
   BrowserRouter as Router,
   Routes,

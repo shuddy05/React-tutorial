@@ -6,7 +6,7 @@ const Otherinput = () => {
   const [preview, setPreview] = useState(null);
   const handleChange = (e) => {
     setPicture(e.target.files[0]);
-    setPreview(URL.createObjectURL(e.target.files[1]));
+    setPreview(URL.createObjectURL(e.target.files[0]));
   };
 
   const handleRemove = () => {
